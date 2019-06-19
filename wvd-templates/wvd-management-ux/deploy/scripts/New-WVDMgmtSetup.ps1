@@ -1,4 +1,5 @@
-﻿$subscriptionid = Get-AutomationVariable -Name 'subscriptionid'
+#Test
+$subscriptionid = Get-AutomationVariable -Name 'subscriptionid'
 $ResourceGroupName = Get-AutomationVariable -Name 'ResourceGroupName'
 $RDBrokerURL = Get-AutomationVariable -Name 'RDBrokerURL'
 $ResourceURL = Get-AutomationVariable -Name 'ResourceURL'
