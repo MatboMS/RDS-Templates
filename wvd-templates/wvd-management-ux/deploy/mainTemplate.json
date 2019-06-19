@@ -44,7 +44,7 @@
         "hostingPlanName": "[concat(parameters('ApplicationName'),'-SPlan')]",
         "serviceplansku": "S1",
         "workerSize": "0",
-        "baseURL": "https://raw.githubusercontent.com/MatboMS/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy/scripts/",
+        "baseURL": "https://raw.githubusercontent.com/MatboMS/RDS-Templates/master/wvd-templates/wvd-management-ux/deploy/scripts/",
         "scriptUri": "[concat(variables('baseURL'),'New-WVDMgmtSetup.ps1')]",
         "fileURI": "[concat(variables('baseURL'),'/msft-wvd-saas-offering.zip')]",
         "sku": "Free",
